@@ -18,3 +18,10 @@ A robust desktop application built with C# and WinForms designed to automate and
 ## 📂 Project Structure
 * C# WinForms: For the desktop interface.
 * SQL Scripts: Database schema and stored procedures (included in the repository).
+
+## ⚙️ How to Run
+1. Database Setup: Open SQL Server Management Studio.
+2. Create a new database named DVLD.
+3. Open the DVLD_Database_Setup.sql file provided in this repository.
+4. Execute the script to generate all tables and sample data.
+5. Connection String: Update the connection string in your App.config or GlobalSettings class to match your local server name.
